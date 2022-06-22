@@ -1,0 +1,7 @@
+{
+    "helloWorld": "Hello World!",
+    "@helloWorld": {
+      "description": "The conventional newborn programmer greeting"
+    },
+    "enterMobileNumberContinue": "Enter your Mobile Number to continue "
+}
