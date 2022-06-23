@@ -6,13 +6,16 @@ A brick to create a riverpod feature template
 
 ## Usage 🚀
 
-```
-mason make riverpod_feature
-```
+1. Install the ```riverpod_feature``` brick globally in your system
+    ```mason add -g riverpod_feature --git-url https://github.com/vinothvino42/mason.git --git-path bricks/riverpod_feature```
+<br>
+2. Navigate to the features directory of your flutter project and then type
+    ```mason make riverpod_feature```
+
+NOTE: Currently, you can install mason brick with git url and it's path only
+
 
 ## Outputs 📦
-
-Navigate to the features directory and then type above command
 
 ```
 --project_name app

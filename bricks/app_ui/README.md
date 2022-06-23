@@ -6,9 +6,13 @@ A brick to create a typography, colors, responsive ui builder, theme, etc
 
 ## Usage 🚀
 
-```
-mason make app_ui
-```
+1. Install the ```app_ui``` brick globally in your system
+    ```mason add -g app_ui --git-url https://github.com/vinothvino42/mason.git --git-path bricks/app_ui```
+<br>
+2. Navigate to the directory where you want all these classes for creating user interfaces and then type
+    ```mason make app_ui```
+
+NOTE: Currently, you can install mason brick with git url and it's path only
 
 ## Outputs 📦
 
