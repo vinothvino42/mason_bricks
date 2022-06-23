@@ -3,5 +3,5 @@
 bricks:
   utilities:
     git:
-      url: git@github.com:vinothvino42/mason_bricks.git
+      url: https://github.com/vinothvino42/mason_bricks.git
       path: bricks/utilities
