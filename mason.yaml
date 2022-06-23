@@ -1,6 +1,10 @@
 # Register bricks which can be consumed via the Mason CLI.
 # https://github.com/felangel/mason
 bricks:
+  riverpod_feature:
+    git:
+      url: https://github.com/vinothvino42/mason_bricks.git
+      path: bricks/riverpod_feature
   utilities:
     git:
       url: https://github.com/vinothvino42/mason_bricks.git
@@ -9,7 +13,23 @@ bricks:
     git:
       url: https://github.com/vinothvino42/mason_bricks.git
       path: bricks/app_ui
-  riverpod_feature:
+  vscode_launch_config:
     git:
       url: https://github.com/vinothvino42/mason_bricks.git
-      path: bricks/riverpod_feature
+      path: bricks/vscode_launch_config
+  service:
+    git:
+      url: https://github.com/vinothvino42/mason_bricks.git
+      path: bricks/service
+  common_widgets:
+    git:
+      url: https://github.com/vinothvino42/mason_bricks.git
+      path: bricks/common_widgets
+  dart_extensions:
+    git:
+      url: https://github.com/vinothvino42/mason_bricks.git
+      path: bricks/dart_extensions
+  app_constants:
+    git:
+      url: https://github.com/vinothvino42/mason_bricks.git
+      path: bricks/app_constants
