@@ -12,7 +12,7 @@ mason make utilities
 
 ## Outputs 📦
 
-Navigate to directory where you want all these helper classes and type above command
+Navigate to directory where you want all these helper classes and then type above command
 
 ```
 ├── alert.dart
