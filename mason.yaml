@@ -5,3 +5,7 @@ bricks:
     git:
       url: https://github.com/vinothvino42/mason_bricks.git
       path: bricks/utilities
+  app_ui:
+    git:
+      url: https://github.com/vinothvino42/mason_bricks.git
+      path: bricks/app_ui
