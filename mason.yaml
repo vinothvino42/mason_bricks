@@ -1,4 +1,7 @@
 # Register bricks which can be consumed via the Mason CLI.
 # https://github.com/felangel/mason
 bricks:
-  
+  utilities:
+    git:
+      url: git@github.com:vinothvino42/mason_bricks.git
+      path: bricks/utilities
