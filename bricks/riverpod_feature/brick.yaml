@@ -1,6 +1,6 @@
 name: riverpod_feature
 description: A brick to create a riverpod feature template
-version: 0.1.1+1
+version: 0.1.2+2
 repository: https://github.com/vinothvino42/mason_bricks/tree/main/bricks/riverpod_feature
 
 environment:
