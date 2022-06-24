@@ -1,12 +1,14 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-class {{feature_name.pascalCase()}}Page extends ConsumerWidget {
-  const {{feature_name.pascalCase()}}Page({Key? key}) : super(key: key);
+class UserPage extends ConsumerWidget {
+  const UserPage({Key? key}) : super(key: key);
 
-  {{#route_name}}
-  static const routeName = '/{{feature_name.camelCase()}}';
+  
+  static PageRoute route() {
+    return MaterialPageRoute(builder: (context) => const User());
+  }
+  
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

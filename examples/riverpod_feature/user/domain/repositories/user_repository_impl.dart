@@ -2,7 +2,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'user_repository.dart';
 
-/// The provider for accessing the [userRepository]
+/// The provider for accessing the [UserRepository]
 final userRepositoryProvider = Provider<UserRepository>((ref) {
   return UserRepositoryImpl(ref.read);
 });
