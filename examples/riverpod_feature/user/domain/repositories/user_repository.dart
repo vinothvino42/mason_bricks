@@ -1,5 +1,5 @@
 
-abstract class {{feature_name.pascalCase()}}Repository {
+abstract class UserRepository {
   // TODO: add your methods
   // Future<AuthUser?> getUserProfile();
 }
