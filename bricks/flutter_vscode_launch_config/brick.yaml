@@ -1,7 +1,7 @@
 name: flutter_vscode_launch_config
 description: VSCode launch configurations for Flutter Project
-version: 0.1.1+1
-repository: https://github.com/vinothvino42/mason_bricks/tree/main/bricks/riverpod_feature
+version: 0.1.1+2
+repository: https://github.com/vinothvino42/mason_bricks/tree/main/bricks/flutter_vscode_launch_config
 
 environment:
   mason: ">=0.1.0-dev.26 <0.1.0"
