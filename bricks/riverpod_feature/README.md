@@ -4,16 +4,13 @@
 
 A brick to create a riverpod feature template
 
+## Prerequisites
+Install the [flutter_riverpod](https://pub.dev/packages/flutter_riverpod) package from pub.dev
+
 ## Usage 🚀
-
-1. Install the ```riverpod_feature``` brick globally in your system
-    ```mason add -g riverpod_feature --git-url https://github.com/vinothvino42/mason.git --git-path bricks/riverpod_feature```
-<br>
-2. Navigate to the features directory of your flutter project and then type
-    ```mason make riverpod_feature```
-
-NOTE: Currently, you can install mason brick with git url and it's path only
-
+```
+mason make riverpod_feature
+```
 
 ## Outputs 📦
 
@@ -27,13 +24,14 @@ NOTE: Currently, you can install mason brick with git url and it's path only
 │   │   │   │   │   ├── user_controller.dart (State Notifiers, Change Notifiers, etc)
 │   │   │   │   ├── domains
 │   │   │   │   │   ├── models
-│   │   │   │   │   │   ├── user.dart (Freezed models)
-│   │   │   │   │   ├── repository
+│   │   │   │   │   │   ├── user_model.dart (Freezed models)
+│   │   │   │   │   ├── repositories
+│   │   │   │   │   │   ├── user_repository_impl.dart
 │   │   │   │   │   │   ├── user_repository.dart
 │   │   │   │   ├── presentation
 │   │   │   │   │   ├── views
 │   │   │   │   │   │   ├── user_page.dart
 │   │   │   │   │   ├── widgets
-│   │   │   │   │   │   ├── user_view.dart
+│   │   │   │   │   │   ├── user_widget.dart
 └── ...
 ```

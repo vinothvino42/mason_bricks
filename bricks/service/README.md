@@ -7,7 +7,7 @@ A brick to generate a service classes for local storage, secure storage, push no
 ## Usage 🚀
 
 1. Install the ```service``` brick globally in your system
-    ```mason add -g service --git-url https://github.com/vinothvino42/mason.git --git-path bricks/service```
+    ```mason add -g service --git-url https://github.com/vinothvino42/mason_bricks.git --git-path bricks/service```
 <br>
 2. Navigate to the directory where you want all these helper classes and then type
     ```mason make service```

@@ -7,7 +7,7 @@ A brick to create a directory which contains all the constants like api endpoint
 ## Usage 🚀
 
 1. Install the ```app_constants``` brick globally in your system
-    ```mason add -g app_constants --git-url https://github.com/vinothvino42/mason.git --git-path bricks/app_constants```
+    ```mason add -g app_constants --git-url https://github.com/vinothvino42/mason_bricks.git --git-path bricks/app_constants```
 <br>
 2. Navigate to the directory where you want constants directory with all these classes and then type
     ```mason make app_constants```

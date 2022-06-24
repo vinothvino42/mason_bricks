@@ -7,7 +7,7 @@ A brick to create a commonly used dart extensions for flutter project
 ## Usage 🚀
 
 1. Install the ```dart_extensions``` brick globally in your system
-    ```mason add -g dart_extensions --git-url https://github.com/vinothvino42/mason.git --git-path bricks/dart_extensions```
+    ```mason add -g dart_extensions --git-url https://github.com/vinothvino42/mason_bricks.git --git-path bricks/dart_extensions```
 <br>
 2. Navigate to the directory where you want all these helper classes and then type
     ```mason make dart_extensions```
