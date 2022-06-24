@@ -1,0 +1,29 @@
+name: flutter_vscode_launch_config
+description: VSCode launch configurations for Flutter Project
+version: 0.1.1+1
+repository: https://github.com/vinothvino42/mason_bricks/tree/main/bricks/riverpod_feature
+
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+vars:
+  mainFileName:
+    type: string
+    description: main.dart file name
+    default: main
+    prompt: Enter your main dart source file name?
+  isProfileMode:
+    type: boolean
+    description: If it's true, then it'll add another launch config for profile build mode
+    default: true
+    prompt: Do you want profile build mode launch config?
+  isReleaseMode:
+    type: boolean
+    description: If it's true, then it'll add another launch config for release build mode
+    default: true
+    prompt: Do you want release build mode launch config?
+  flavor:
+    type: boolean
+    description: If it's true, then it'll add launch config for all flavors (development, staging and production)
+    default: false
+    prompt: Do you want build flavors (development, staging and production) launch configs?

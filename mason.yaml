@@ -3,6 +3,8 @@
 bricks:
   riverpod_feature:
     path: bricks/riverpod_feature
+  flutter_vscode_launch_config:
+    path: bricks/flutter_vscode_launch_config
   utilities:
     git:
       url: https://github.com/vinothvino42/mason_bricks.git
@@ -11,10 +13,6 @@ bricks:
     git:
       url: https://github.com/vinothvino42/mason_bricks.git
       path: bricks/app_ui
-  vscode_launch_config:
-    git:
-      url: https://github.com/vinothvino42/mason_bricks.git
-      path: bricks/vscode_launch_config
   service:
     git:
       url: https://github.com/vinothvino42/mason_bricks.git
